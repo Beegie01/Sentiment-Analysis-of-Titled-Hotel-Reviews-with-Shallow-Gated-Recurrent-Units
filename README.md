@@ -1,4 +1,4 @@
-# Sentiment-Analysis-of-Titled-Hotel-Reviews-with-Shallow-Gated-Recurrent-Units
+# Sentiment Analysis of Titled Hotel Reviews with Shallow Gated Recurrent Units
 
 ### PROJECT CONCEPT
 This is a research project with the aim of providing a relatively simple, computationally inexpensive approach to sentiment analysis of hotel reviews. To achieve this goal, a well-optimised single hidden-layer gated recurrent units (GRU) was proposed and its performance was compared to that of a baseline model in form of the simple vector machine (SVM).<br><br>
