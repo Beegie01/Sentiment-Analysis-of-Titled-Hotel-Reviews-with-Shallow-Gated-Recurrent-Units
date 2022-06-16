@@ -18,6 +18,7 @@ Hyperparameters were fine-tuned based on model performance on validation set, wh
 
 ### SUPERVISED MACHINE LEARNING
 #### GRU
+![image](https://user-images.githubusercontent.com/76821049/174035737-12843595-0688-4ea5-a5f2-aad3c34d6233.png)<br>
 Most of the preprocessing was performed using the Scikit-Learn library (Pedregosa et al, 2011), while the GRU classifier was implemented through the deep learning library called Keras (Chollet, 2021). The Adaptive moment (ADAM) optimizer, which runs on a stochastic gradient descent method, is quite resilient to learning rate and other training parameters making it less reliant on hyperparameter optimization (Shewalkar, 2019). Hence, this was chosen as the optimizer for the shallow GRU model. Only the learning rate of ADAM was tuned in this study. The loss function, which computes the distance between predicted and actual values during training, was binary cross-entropy.<br>
 
 #### SVM
