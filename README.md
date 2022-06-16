@@ -1,7 +1,7 @@
 # Sentiment Analysis of Titled Hotel Reviews with Shallow Gated Recurrent Units
 
 ### PROJECT CONCEPT
-This is a research project with the aim of providing a relatively simple, computationally inexpensive approach to sentiment analysis of hotel reviews. To achieve this goal, a well-optimised single hidden-layer gated recurrent units (GRU) was proposed and its performance was compared to that of a baseline model in form of the simple vector machine (SVM).<br><br>
+This is a research project with the aim of providing a relatively simple, computationally inexpensive approach to sentiment analysis of hotel reviews. To achieve this goal, a single hidden-layer gated recurrent units (GRU) was optimised and its performance was compared to that of a baseline simple vector machine (SVM) model.<br><br>
 NOTE: This experiment was conducted on the GPU infrastructure of Google Colab virtual platform (https://colab.research.google.com/).<br>
 <br><br>Full version of this research project can be found [here](https://github.com/Beegie01/Sentiment-Analysis-of-Titled-Hotel-Reviews-with-Shallow-Gated-Recurrent-Units/blob/main/Project_report.pdf).<br>
 <br>[Here](https://github.com/Beegie01/Sentiment-Analysis-of-Titled-Hotel-Reviews-with-Shallow-Gated-Recurrent-Units/blob/main/Applied_AI_proj.ipynb) is the jupyter notebook for the sentiment analysis of titled hotel reviews with shallow GRU<br><br>
