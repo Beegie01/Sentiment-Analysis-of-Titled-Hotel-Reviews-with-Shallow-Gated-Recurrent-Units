@@ -30,7 +30,12 @@ For the SVM classifier (with RBF kernel), the input variable consisted of uni-gr
 
 ###	Result Interpretation
 #### Training and Validation of Unoptimized GRU
-![image](https://user-images.githubusercontent.com/76821049/174037445-fdd9d0b8-2f31-4839-b87e-456f20dd4cb2.png)
+![image](https://user-images.githubusercontent.com/76821049/174037445-fdd9d0b8-2f31-4839-b87e-456f20dd4cb2.png)<br>
+The above plot shows a steady rise in validation loss and the reverse for the training loss clearly indicating that overfitting began after epoch 3.<br><br>
+
+#### Training  and Validation of Optimized GRU
+![image](https://user-images.githubusercontent.com/76821049/174038667-963a18a8-b9d2-495a-8250-7be68681e26c.png)<br>
+The above plot shows a steady drop in training loss, and a tupsy-turvy drop in validation loss. Validation loss was at its minimum at epoch 16 at which, the validation accuracy was slightly higher than the training accuracy implying there was no overfitting.
 
 <br><br>Full details of this research project are documented in this [paper](https://github.com/Beegie01/Sentiment-Analysis-of-Titled-Hotel-Reviews-with-Shallow-Gated-Recurrent-Units/blob/main/Project_report.pdf).
 <br>[Here](https://github.com/Beegie01/Sentiment-Analysis-of-Titled-Hotel-Reviews-with-Shallow-Gated-Recurrent-Units/blob/main/Applied_AI_proj.ipynb) is the jupyter notebook for the sentiment analysis of titled hotel reviews with shallow GRU
