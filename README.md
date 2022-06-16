@@ -2,6 +2,10 @@
 
 ### PROJECT CONCEPT
 This is a research project with the aim of providing a relatively simple, computationally inexpensive approach to sentiment analysis of hotel reviews. To achieve this goal, a well-optimised single hidden-layer gated recurrent units (GRU) was proposed and its performance was compared to that of a baseline model in form of the simple vector machine (SVM).<br><br>
+NOTE: This experiment was conducted on the GPU infrastructure of Google Colab virtual platform (https://colab.research.google.com/).<br><br>
+
+### ABSTRACT
+The growing volume of existing online reviews today far exceeds the reading capacity of humans. Therefore, there is an urgent need for the introduction of more innovative methods to automate the task of understanding customers’ mindsets through the sentiment analysis of customer reviews (Shi et al 2011). A big part of business success in the hospitality industry (like most industries) is derived from having a good market reputation. Sentiment analysis now provides a way for HSPs to gain a better understanding of how they are perceived in the marketplace by existing and potential customers. In this paper, the focus was on optimizing the hyperparameters of a shallow GRU that can perform sentiment analysis of titled hotel reviews with comparable results to other state-of-the-art algorithms and architectures. As presented in the experimental results, with optimized hyperparameters, a GRU model with one hidden layer improved tremendously in performance and outperformed an SVM classifier. In addition, when tuning the GRU model more attention should be given to the number of units, batch size, and learning rate than the number of layers.<br><br>
 
 ### DATASET
 ![customer reviews of hotels in London](https://user-images.githubusercontent.com/76821049/173886937-80017dff-d71f-4d3d-93e0-1614aedc7ced.png)<br>
@@ -23,6 +27,10 @@ Most of the preprocessing was performed using the Scikit-Learn library (Pedregos
 
 #### SVM
 For the SVM classifier (with RBF kernel), the input variable consisted of uni-gram, 2-gram, and 3-gram vectors derived from the operation of a count vectorizer. Both the SVM model and the count vectorizer algorithm were implemented through the Scikit-Learn machine learning library.
+
+###	Result Interpretation
+#### Training and Validation of Unoptimized GRU
+![image](https://user-images.githubusercontent.com/76821049/174037445-fdd9d0b8-2f31-4839-b87e-456f20dd4cb2.png)
 
 <br><br>Full details of this research project are documented in this [paper](https://github.com/Beegie01/Sentiment-Analysis-of-Titled-Hotel-Reviews-with-Shallow-Gated-Recurrent-Units/blob/main/Project_report.pdf).
 <br>[Here](https://github.com/Beegie01/Sentiment-Analysis-of-Titled-Hotel-Reviews-with-Shallow-Gated-Recurrent-Units/blob/main/Applied_AI_proj.ipynb) is the jupyter notebook for the sentiment analysis of titled hotel reviews with shallow GRU
